@@ -12,6 +12,8 @@ public class test {
     }
 
     public static int add(int a, int b, int c){
-        return a+b+c;
+        int result=0;
+        result = a+b+c+2;
+        return result;
     }
 }
