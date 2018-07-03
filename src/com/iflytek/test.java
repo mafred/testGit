@@ -8,5 +8,10 @@ public class test {
         System.out.println("version 2");
         System.out.println("version 12");
         System.out.println("version 3");
+        System.out.println(add(1,3));
+    }
+
+    public static int add(int a, int b){
+        return a+b;
     }
 }
